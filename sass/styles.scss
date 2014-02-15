@@ -29,30 +29,84 @@ section {
   margin-bottom: 40px !important;
 }
 
-.services {
-  ul {
-    padding: 0;
-    li {
-      width: 143px;
-      list-style-type: none;
-      float: left;
-      background: $gray-lighter;
-      padding: 20px;
-      margin-right: 1px;
-      text-align: center;
-      color: $gray-light;
-      height: 100px;
+//TODO figure is this is better
+.item-icon {
+  text-align: center;
+  padding: 20px;
 
-      &:hover li, &:hover {
-        @include transition(width 0.3s);
-      }
+  i {
+    font-size: 9em;
+    color: #00708c;
+  }
+  .item-content {
+    font-size: 0.9em;
+    line-height: 1.6em;
+    background-color: #00708c;
+    color: #fff;
+    padding: 20px;
+    height: 240px;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    @include transition(all 0.4s linear);
 
-      p {
-        overflow: hidden;
-        white-space: nowrap;
-      }
+    h3 {
+      font-size: 1.3em;
+      margin: 5px 0 20px 0;
+      font-weight: 400;
+    }
+
+    p {
+      margin: 0 0 10px;
     }
   }
+}
+
+// TODO fix this
+.services ul {
+	padding: 0;
+}
+.services li,
+.services li:hover li,
+.services li:hover {
+  @include transition(width 0.3s);
+}
+.services li {
+	list-style-type: none;
+	float: left;
+	background: #eee;
+	padding: 20px;
+	margin-right: 1px;
+	text-align: center;
+	color: #888;
+	width: 227px;
+	height: 100px;
+}
+.services li p {
+	overflow: hidden;
+	white-space: nowrap;
+}
+.services li p a {
+	visibility: hidden;
+}
+.services ul:hover li{
+   width: 201px;
+}
+.services li:hover {
+   width: 328px !important;
+   background: #507192;
+   cursor: pointer;
+   color: #FFF;
+   text-align: left;
+}
+.services li:hover i {
+	float: left;
+	line-height: 60px;
+	margin: 0 20px 0 5px;
+}
+.services li:hover p a {
+	visibility: visible;
+	color: #FFF;
 }
 
 .block-header {

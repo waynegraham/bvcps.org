@@ -107,12 +107,25 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="..." alt="...">
+      <img src="/images/piano.jpg" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
-    ...
+     <div class="item">
+      <img src="/images/middleschool.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="/images/westfront_pond.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+
+
   </div>
 
   <!-- Controls -->
@@ -125,8 +138,6 @@
 </div>
 </section> <!-- carousel -->
 
-
-
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -134,25 +145,36 @@
         <ul>
           <li>
             <i class="fa fa-laptop fa-3x"></i>
-            <p>Parents</p>
+            <p>Parents<br><a href="#">Resources for parents</a></p>
           </li>
           <li>
             <i class="fa fa-compass fa-3x"></i>
-            <p>Prospective Families</p>
+            <p>Prospective Families<br><a href="#">Resources for prospective families</a></p>
           </li>
           <li>
             <i class="fa fa-comments fa-3x"></i>
-            <p>Students</p>
+            <p>Students<br><a href="#">Resources for students</a></p>
           </li>
           <li>
             <i class="fa fa-bullhorn fa-3x"></i>
-            <p>Alumni</p>
+            <p>Alumni<br><a href="#">Resources for alumni</a></p>
           </li>
           <li>
             <i class="fa fa-briefcase fa-3x"></i>
-            <p>Faculty &amp; Staff</p>
+            <p>Faculty &amp; Staff<br><a href="#">Resources for faculty and staff</a></p>
           </li>
         </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="item-icon">
+          <i class="fa fa-laptop"></i>
+          <div class="item-content">
+            <h3>Parents</h3>
+            <p>Bacon ipsum dolor sit amet beef ribs bresaola jowl pork belly, kevin shankle pork loin shoulder filet mignon pork landjaeger tongue leberkas strip steak. </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -166,7 +188,7 @@
   <div class="row">
     <div class="col-md-3 col-sm-6">
       <div class="thumbnail">
-        <img src="" class="img-responsive">
+        <img src="/images/middleschool.jpg" class="img-responsive">
         <div class="visit">
           <a href="#">
             <i class="fa fa-question-circle"></i> More Information
@@ -177,9 +199,59 @@
           <p>blah blah blah</p>
         </div>
       </div>
-
     </div>
-  </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="thumbnail">
+        <img src="/images/piano.jpg" class="img-responsive">
+        <div class="visit">
+          <a href="#">
+            <i class="fa fa-question-circle"></i> More Information
+          </a>
+        </div>
+         <div class="caption">
+          <h4>Another thing</h4>
+          <p>blah blah blah</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="thumbnail">
+        <img src="/images/piano.jpg" class="img-responsive">
+        <div class="visit">
+          <a href="#">
+            <i class="fa fa-question-circle"></i> More Information
+          </a>
+        </div>
+         <div class="caption">
+          <h4>Another thing</h4>
+          <p>blah blah blah</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <div class="thumbnail">
+        <img src="/images/westfront_pond.jpg" class="img-responsive">
+        <div class="visit">
+          <a href="#">
+            <i class="fa fa-question-circle"></i> More Information
+          </a>
+        </div>
+         <div class="caption">
+          <h4>Another thing</h4>
+          <p>blah blah blah</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </div><!-- row -->
+
+
 </div><!-- .container -->
 
 <footer role="content-info">
@@ -256,5 +328,12 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="/js/bootstrap/dropdown.js"></script>
+<script src="/js/bootstrap/carousel.js"></script>
+
+<script>
+$(document).ready(function() {
+  $('#carousel-example-generic').carousel();
+});
+</script>
 </body>
 </html>
