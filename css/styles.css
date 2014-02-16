@@ -7858,7 +7858,7 @@ footer .social ul li a {
   /*background: #34495e;*/
   color: #fff;
 }
-/* line 240, ../sass/styles.scss */
+/* line 242, ../sass/styles.scss */
 #engage .inner {
   padding-top: 36px;
   padding-bottom: 30px;
@@ -7866,12 +7866,12 @@ footer .social ul li a {
   font-weight: 400;
   text-align: center;
 }
-/* line 244, ../sass/styles.scss */
+/* line 246, ../sass/styles.scss */
 #engage .inner h2 {
   text-align: center;
   font-size: 28px;
 }
-/* line 253, ../sass/styles.scss */
+/* line 255, ../sass/styles.scss */
 #engage .inner .button {
   background: #3a9ac4;
   padding: 15px !important;
@@ -7879,16 +7879,17 @@ footer .social ul li a {
   -webkit-transition: background 0.6s;
   transition: background 0.6s;
 }
-/* line 259, ../sass/styles.scss */
+/* line 261, ../sass/styles.scss */
 #engage .inner .button a {
   color: #fff;
 }
-/* line 262, ../sass/styles.scss */
+/* line 264, ../sass/styles.scss */
 #engage .inner .button a:hover {
   text-decoration: none;
 }
-/* line 265, ../sass/styles.scss */
+/* line 267, ../sass/styles.scss */
 #engage .inner .button:hover {
-  background: #235c75;
+  /*background: #235c75;*/
+  background-color: #247294;
   cursor: pointer;
 }

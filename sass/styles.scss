@@ -233,7 +233,9 @@ footer {
 
 // engagement test
 #engage {
-  background: #4baad3;
+  $engage-bg: #4baad3;
+
+  background: $engage-bg;
   /*background: #34495e;*/
   color: #fff;
 
@@ -263,7 +265,8 @@ footer {
       }
 
       &:hover {
-        background: #235c75;
+        /*background: #235c75;*/
+        background-color: darken($engage-bg, 20%);
         cursor: pointer;
       }
     }
