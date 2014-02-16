@@ -33,7 +33,9 @@ nav {
   }
 }
 
-
+.navbar-form {
+  margin-top: 20px;
+}
 
 #accordion {
   padding-left: 15px;
@@ -47,7 +49,7 @@ nav {
 
   .calendar {
     p.pull-right { padding-right: 1em; }
-    
+
     ul {
       list-style: none;
       padding-left: 0;
@@ -84,14 +86,14 @@ nav {
 }
 
 section {
-  margin-bottom: 40px !important;
+  /*margin-bottom: 40px !important;*/
 
   #accordion {
   }
 
   .carousel {
     height: 500px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 
     .carousel-caption { z-index: 10; }
 
