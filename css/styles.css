@@ -7967,3 +7967,38 @@ footer .social ul li a {
   background-color: #247294;
   cursor: pointer;
 }
+
+/* line 353, ../sass/styles.scss */
+.breadcrumb {
+  float: right;
+  margin: 0;
+  padding: 16px;
+  background: none;
+  border-radius: 0;
+}
+/* line 360, ../sass/styles.scss */
+.breadcrumb .active {
+  color: #333333;
+}
+
+/* line 365, ../sass/styles.scss */
+.focus-block {
+  border-bottom: 1px solid #245bfa;
+  background: #eeeeee;
+  padding: 20px;
+  margin: 2em 0;
+}
+/* line 371, ../sass/styles.scss */
+.focus-block h3 {
+  margin-top: 0;
+}
+/* line 375, ../sass/styles.scss */
+.focus-block p {
+  font-size: 1.4em;
+  font-weight: 100;
+}
+/* line 380, ../sass/styles.scss */
+.focus-block .fancy {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
