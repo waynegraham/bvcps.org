@@ -5,7 +5,14 @@
 @import "variables";
 @import "bootstrap";
 
-$header-bg: #2c3e50;
+/*$header-bg: #2c3e50;*/
+/*$header-bg: #4859D0;*/
+/*$header-bg: #313CA3;*/
+$header-bg: #0431b4;
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
 
 header {
   background: $header-bg;
@@ -19,7 +26,8 @@ header {
 }
 
 nav {
-  background-color: lighten($header-bg, 20%);
+  /*background-color: lighten($header-bg, 20%);*/
+  background-color: darken($header-bg, 10%);
   a {
     color: #fff;
   }
@@ -62,49 +70,55 @@ section {
   }
 }
 
+.paddit {
+  padding-bottom: 40px;
+}
+
 // TODO fix this
-.services ul {
+.resources ul {
 	padding: 0;
 }
-.services li,
-.services li:hover li,
-.services li:hover {
+.resources li,
+.resources li:hover li,
+.resources li:hover {
   @include transition(width 0.3s);
 }
-.services li {
+.resources li {
 	list-style-type: none;
 	float: left;
-	background: #eee;
+	background: $gray-lighter;
 	padding: 20px;
 	margin-right: 1px;
 	text-align: center;
-	color: #888;
-	width: 227px;
+	/*color: #888;*/
+	color: lighten($header-bg, 25%);
+  width: 227px;
 	height: 100px;
 }
-.services li p {
+.resources li p {
 	overflow: hidden;
 	white-space: nowrap;
 }
-.services li p a {
+.resources li p a {
 	visibility: hidden;
 }
-.services ul:hover li{
+.resources ul:hover li{
    width: 201px;
 }
-.services li:hover {
+.resources li:hover {
    width: 328px !important;
-   background: #507192;
+   /*background: #507192;*/
+   background: lighten($header-bg, 25%);
    cursor: pointer;
    color: #FFF;
    text-align: left;
 }
-.services li:hover i {
+.resources li:hover i {
 	float: left;
 	line-height: 60px;
 	margin: 0 20px 0 5px;
 }
-.services li:hover p a {
+.resources li:hover p a {
 	visibility: visible;
 	color: #FFF;
 }
@@ -214,4 +228,44 @@ footer {
   padding: 20px 0 10px 0;
   color: #fff;
   font-weight: 300;
+}
+
+
+// engagement test
+#engage {
+  background: #4baad3;
+  /*background: #34495e;*/
+  color: #fff;
+
+  .inner {
+    padding-top: 36px;
+    padding-bottom: 30px;
+
+    h2 {
+      text-align: center;
+      font-size: 28px;
+    }
+
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+
+    .button {
+      background: #3a9ac4;
+      padding: 15px !important;
+      margin-bottom: 10px;
+      @include transition(background 0.6s);
+
+      a {
+        color: #fff;
+
+        &:hover {text-decoration: none;}
+      }
+
+      &:hover {
+        background: #235c75;
+        cursor: pointer;
+      }
+    }
+  }
 }
