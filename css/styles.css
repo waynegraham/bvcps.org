@@ -8002,3 +8002,82 @@ footer .social ul li a {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
 }
+
+@media (max-width: 1200px) {
+  /* line 390, ../sass/styles.scss */
+  .resources ul:hover li {
+    width: 171px;
+  }
+  /* line 394, ../sass/styles.scss */
+  .resources li {
+    width: 187px;
+  }
+  /* line 396, ../sass/styles.scss */
+  .resources li:hover {
+    width: 250px !important;
+  }
+}
+@media (max-width: 992px) {
+  /* line 406, ../sass/styles.scss */
+  .resources li {
+    width: 143px;
+  }
+  /* line 409, ../sass/styles.scss */
+  .resources li:hover {
+    width: 200px !important;
+  }
+  /* line 414, ../sass/styles.scss */
+  .resources ul:hover li {
+    width: 128px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 421, ../sass/styles.scss */
+  .resources ul {
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  /* line 425, ../sass/styles.scss */
+  .resources li {
+    float: none;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    margin: 0 0 1px 0;
+  }
+
+  /* line 432, ../sass/styles.scss */
+  .resources li p {
+    white-space: normal;
+  }
+
+  /* line 435, ../sass/styles.scss */
+  .resources li p a {
+    visibility: visible;
+  }
+
+  /* line 438, ../sass/styles.scss */
+  .resources ul:hover li {
+    width: 100%;
+  }
+
+  /* line 441, ../sass/styles.scss */
+  .resources li:hover {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  /* line 445, ../sass/styles.scss */
+  .resources li:hover i {
+    float: none;
+    line-height: 2px;
+    padding: 20px;
+    margin: 0;
+  }
+
+  /* line 451, ../sass/styles.scss */
+  .resources li:hover p a {
+    visibility: visible;
+  }
+}
