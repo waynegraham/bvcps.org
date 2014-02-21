@@ -4,6 +4,7 @@
 // customize bootstrap variables here:
 @import "variables";
 @import "bootstrap";
+@import "retina";
 
 /*$header-bg: #2c3e50;*/
 /*$header-bg: #4859D0;*/
@@ -16,8 +17,14 @@ body {
 
 header {
   background: $header-bg;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /*padding-top: 50px;*/
+  /*padding-bottom: 50px;*/
+
+  .logo {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
 
   a, a:hover {
     color: #fff;
@@ -34,7 +41,7 @@ nav {
 }
 
 .navbar-form {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 #accordion {
@@ -153,6 +160,7 @@ section {
 // TODO fix this
 .resources ul {
 	padding: 0;
+
 }
 .resources li,
 .resources li:hover li,

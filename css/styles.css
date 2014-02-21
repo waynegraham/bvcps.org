@@ -7608,34 +7608,40 @@ body {
 /* line 17, ../sass/styles.scss */
 header {
   background: #0431b4;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /*padding-top: 50px;*/
+  /*padding-bottom: 50px;*/
 }
 /* line 22, ../sass/styles.scss */
+header .logo {
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/* line 28, ../sass/styles.scss */
 header a, header a:hover {
   color: #fff;
 }
-/* line 24, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 header a:hover, header a:hover:hover {
   text-decoration: none;
 }
 
-/* line 28, ../sass/styles.scss */
+/* line 34, ../sass/styles.scss */
 nav {
   /*background-color: lighten($header-bg, 20%);*/
   background-color: #032382;
 }
-/* line 31, ../sass/styles.scss */
+/* line 37, ../sass/styles.scss */
 nav a {
   color: #fff;
 }
 
-/* line 36, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 .navbar-form {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
-/* line 40, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 #accordion {
   padding-left: 15px;
   /*$accordion-bg: #E8760C;*/
@@ -7644,63 +7650,63 @@ nav a {
   /*color: #fff;*/
   /*}*/
 }
-/* line 51, ../sass/styles.scss */
+/* line 57, ../sass/styles.scss */
 #accordion .calendar p.pull-right {
   padding-right: 1em;
 }
-/* line 53, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 #accordion .calendar ul {
   list-style: none;
   padding-left: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-/* line 58, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 #accordion .calendar ul li {
   margin: 1em;
   /*margin-bottom: 1em;*/
   /*padding-bottom: 1em;*/
   border-bottom: 1px dotted #ccc;
 }
-/* line 64, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 #accordion .calendar ul li .deck {
   font-style: italic;
   color: #333333;
 }
-/* line 69, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 #accordion .calendar ul li p {
   margin: 0;
 }
-/* line 73, ../sass/styles.scss */
+/* line 79, ../sass/styles.scss */
 #accordion .calendar ul li h3 {
   margin: 0;
   font-size: 16px;
   font-weight: bold;
   line-height: 1em;
 }
-/* line 79, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 #accordion .calendar ul li h3 a {
   text-decoration: none;
 }
 
-/* line 88, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 section {
   /*margin-bottom: 40px !important;*/
 }
-/* line 94, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 section .carousel {
   height: 500px;
   margin-bottom: 30px;
 }
-/* line 98, ../sass/styles.scss */
+/* line 104, ../sass/styles.scss */
 section .carousel .carousel-caption {
   z-index: 10;
 }
-/* line 100, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 section .carousel .item {
   height: 500px;
   background-color: #777;
 }
-/* line 104, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 section .carousel .item > img {
   positon: absolute;
   top: 0;
@@ -7709,17 +7715,17 @@ section .carousel .item > img {
   height: 500px;
 }
 
-/* line 117, ../sass/styles.scss */
+/* line 123, ../sass/styles.scss */
 .item-icon {
   text-align: center;
   padding: 20px;
 }
-/* line 121, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 .item-icon i {
   font-size: 9em;
   color: #00708c;
 }
-/* line 125, ../sass/styles.scss */
+/* line 131, ../sass/styles.scss */
 .item-icon .item-content {
   font-size: 0.9em;
   line-height: 1.6em;
@@ -7733,28 +7739,28 @@ section .carousel .item > img {
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
-/* line 137, ../sass/styles.scss */
+/* line 143, ../sass/styles.scss */
 .item-icon .item-content h3 {
   font-size: 1.3em;
   margin: 5px 0 20px 0;
   font-weight: 400;
 }
-/* line 143, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 .item-icon .item-content p {
   margin: 0 0 10px;
 }
 
-/* line 149, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 .paddit {
   padding-bottom: 40px;
 }
 
-/* line 154, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 .resources ul {
   padding: 0;
 }
 
-/* line 159, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 .resources li,
 .resources li:hover li,
 .resources li:hover {
@@ -7762,7 +7768,7 @@ section .carousel .item > img {
   transition: width 0.3s;
 }
 
-/* line 162, ../sass/styles.scss */
+/* line 169, ../sass/styles.scss */
 .resources li {
   list-style-type: none;
   float: left;
@@ -7776,23 +7782,23 @@ section .carousel .item > img {
   height: 100px;
 }
 
-/* line 174, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 .resources li p {
   overflow: hidden;
   white-space: nowrap;
 }
 
-/* line 178, ../sass/styles.scss */
+/* line 185, ../sass/styles.scss */
 .resources li p a {
   visibility: hidden;
 }
 
-/* line 181, ../sass/styles.scss */
+/* line 188, ../sass/styles.scss */
 .resources ul:hover li {
   width: 201px;
 }
 
-/* line 184, ../sass/styles.scss */
+/* line 191, ../sass/styles.scss */
 .resources li:hover {
   width: 328px !important;
   /*background: #507192;*/
@@ -7802,20 +7808,20 @@ section .carousel .item > img {
   text-align: left;
 }
 
-/* line 192, ../sass/styles.scss */
+/* line 199, ../sass/styles.scss */
 .resources li:hover i {
   float: left;
   line-height: 60px;
   margin: 0 20px 0 5px;
 }
 
-/* line 197, ../sass/styles.scss */
+/* line 204, ../sass/styles.scss */
 .resources li:hover p a {
   visibility: visible;
   color: #FFF;
 }
 
-/* line 202, ../sass/styles.scss */
+/* line 209, ../sass/styles.scss */
 .block-header {
   margin: 40px 0;
   font-size: 24px;
@@ -7824,14 +7830,14 @@ section .carousel .item > img {
   text-transform: uppercase;
 }
 
-/* line 210, ../sass/styles.scss */
+/* line 217, ../sass/styles.scss */
 .thumbnail {
   position: relative;
   padding: 0;
   border: 0;
   border-radius: 0;
 }
-/* line 216, ../sass/styles.scss */
+/* line 223, ../sass/styles.scss */
 .thumbnail > img {
   margin-left: auto;
   margin-right: auto;
@@ -7841,13 +7847,13 @@ section .carousel .item > img {
   padding: 10px;
   border: 1px solid #eeeeee;
 }
-/* line 226, ../sass/styles.scss */
+/* line 233, ../sass/styles.scss */
 .thumbnail:hover .visit {
   opacity: 1;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 231, ../sass/styles.scss */
+/* line 238, ../sass/styles.scss */
 .thumbnail .visit {
   position: absolute;
   opacity: 0;
@@ -7857,48 +7863,48 @@ section .carousel .item > img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 239, ../sass/styles.scss */
+/* line 246, ../sass/styles.scss */
 .thumbnail .visit a {
   color: #fff;
   text-transform: uppercase;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
 }
-/* line 247, ../sass/styles.scss */
+/* line 254, ../sass/styles.scss */
 .thumbnail .caption {
   padding: 10px;
   color: #333333;
 }
-/* line 251, ../sass/styles.scss */
+/* line 258, ../sass/styles.scss */
 .thumbnail .caption h4 {
   text-transform: uppercase;
 }
 
-/* line 257, ../sass/styles.scss */
+/* line 264, ../sass/styles.scss */
 footer {
   background: #2d2d2d;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #999999;
 }
-/* line 263, ../sass/styles.scss */
+/* line 270, ../sass/styles.scss */
 footer .headline {
   border-bottom: 1px dotted #fff;
   margin-bottom: 20px;
 }
-/* line 267, ../sass/styles.scss */
+/* line 274, ../sass/styles.scss */
 footer .headline h3 {
   text-transform: uppercase;
   font-weight: 100;
 }
-/* line 275, ../sass/styles.scss */
+/* line 282, ../sass/styles.scss */
 footer .social ul {
   color: #fff;
   font-size: 24px;
   margin: 0;
   padding: 0;
 }
-/* line 281, ../sass/styles.scss */
+/* line 288, ../sass/styles.scss */
 footer .social ul li {
   float: left;
   display: block;
@@ -7912,13 +7918,13 @@ footer .social ul li {
   -webkit-transition: background 0.1s;
   transition: background 0.1s;
 }
-/* line 294, ../sass/styles.scss */
+/* line 301, ../sass/styles.scss */
 footer .social ul li a {
   -webkit-transition: color 0.1s;
   transition: color 0.1s;
 }
 
-/* line 302, ../sass/styles.scss */
+/* line 309, ../sass/styles.scss */
 .legal {
   background: #333333;
   padding: 20px 0 10px 0;
@@ -7926,13 +7932,13 @@ footer .social ul li a {
   font-weight: 300;
 }
 
-/* line 311, ../sass/styles.scss */
+/* line 318, ../sass/styles.scss */
 #engage {
   background: #4baad3;
   /*background: #34495e;*/
   color: #fff;
 }
-/* line 318, ../sass/styles.scss */
+/* line 325, ../sass/styles.scss */
 #engage .inner {
   padding-top: 36px;
   padding-bottom: 30px;
@@ -7940,12 +7946,12 @@ footer .social ul li a {
   font-weight: 400;
   text-align: center;
 }
-/* line 322, ../sass/styles.scss */
+/* line 329, ../sass/styles.scss */
 #engage .inner h2 {
   text-align: center;
   font-size: 28px;
 }
-/* line 331, ../sass/styles.scss */
+/* line 338, ../sass/styles.scss */
 #engage .inner .button {
   background: #3a9ac4;
   padding: 15px !important;
@@ -7953,22 +7959,22 @@ footer .social ul li a {
   -webkit-transition: background 0.6s;
   transition: background 0.6s;
 }
-/* line 337, ../sass/styles.scss */
+/* line 344, ../sass/styles.scss */
 #engage .inner .button a {
   color: #fff;
 }
-/* line 340, ../sass/styles.scss */
+/* line 347, ../sass/styles.scss */
 #engage .inner .button a:hover {
   text-decoration: none;
 }
-/* line 343, ../sass/styles.scss */
+/* line 350, ../sass/styles.scss */
 #engage .inner .button:hover {
   /*background: #235c75;*/
   background-color: #247294;
   cursor: pointer;
 }
 
-/* line 353, ../sass/styles.scss */
+/* line 360, ../sass/styles.scss */
 .breadcrumb {
   float: right;
   margin: 0;
@@ -7976,69 +7982,69 @@ footer .social ul li a {
   background: none;
   border-radius: 0;
 }
-/* line 360, ../sass/styles.scss */
+/* line 367, ../sass/styles.scss */
 .breadcrumb .active {
   color: #333333;
 }
 
-/* line 365, ../sass/styles.scss */
+/* line 372, ../sass/styles.scss */
 .focus-block {
   border-bottom: 1px solid #245bfa;
   background: #eeeeee;
   padding: 20px;
   margin: 2em 0;
 }
-/* line 371, ../sass/styles.scss */
+/* line 378, ../sass/styles.scss */
 .focus-block h3 {
   margin-top: 0;
 }
-/* line 375, ../sass/styles.scss */
+/* line 382, ../sass/styles.scss */
 .focus-block p {
   font-size: 1.4em;
   font-weight: 100;
 }
-/* line 380, ../sass/styles.scss */
+/* line 387, ../sass/styles.scss */
 .focus-block .fancy {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
 }
 
 @media (max-width: 1200px) {
-  /* line 390, ../sass/styles.scss */
+  /* line 397, ../sass/styles.scss */
   .resources ul:hover li {
     width: 171px;
   }
-  /* line 394, ../sass/styles.scss */
+  /* line 401, ../sass/styles.scss */
   .resources li {
     width: 187px;
   }
-  /* line 396, ../sass/styles.scss */
+  /* line 403, ../sass/styles.scss */
   .resources li:hover {
     width: 250px !important;
   }
 }
 @media (max-width: 992px) {
-  /* line 406, ../sass/styles.scss */
+  /* line 413, ../sass/styles.scss */
   .resources li {
     width: 143px;
   }
-  /* line 409, ../sass/styles.scss */
+  /* line 416, ../sass/styles.scss */
   .resources li:hover {
     width: 200px !important;
   }
-  /* line 414, ../sass/styles.scss */
+  /* line 421, ../sass/styles.scss */
   .resources ul:hover li {
     width: 128px;
   }
 }
 @media (max-width: 768px) {
-  /* line 421, ../sass/styles.scss */
+  /* line 428, ../sass/styles.scss */
   .resources ul {
     padding: 10px 0;
     width: 100%;
   }
 
-  /* line 425, ../sass/styles.scss */
+  /* line 432, ../sass/styles.scss */
   .resources li {
     float: none;
     padding: 20px;
@@ -8047,28 +8053,28 @@ footer .social ul li a {
     margin: 0 0 1px 0;
   }
 
-  /* line 432, ../sass/styles.scss */
+  /* line 439, ../sass/styles.scss */
   .resources li p {
     white-space: normal;
   }
 
-  /* line 435, ../sass/styles.scss */
+  /* line 442, ../sass/styles.scss */
   .resources li p a {
     visibility: visible;
   }
 
-  /* line 438, ../sass/styles.scss */
+  /* line 445, ../sass/styles.scss */
   .resources ul:hover li {
     width: 100%;
   }
 
-  /* line 441, ../sass/styles.scss */
+  /* line 448, ../sass/styles.scss */
   .resources li:hover {
     width: 100% !important;
     text-align: center;
   }
 
-  /* line 445, ../sass/styles.scss */
+  /* line 452, ../sass/styles.scss */
   .resources li:hover i {
     float: none;
     line-height: 2px;
@@ -8076,7 +8082,7 @@ footer .social ul li a {
     margin: 0;
   }
 
-  /* line 451, ../sass/styles.scss */
+  /* line 458, ../sass/styles.scss */
   .resources li:hover p a {
     visibility: visible;
   }
