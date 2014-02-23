@@ -9,15 +9,7 @@ get_header();
 <div id="content" class="clearfix for">
   <div id="main" class="col-sm-12 clearfix" role="main">
     <?php if( have_posts()) : while ( have_posts()) : the_post() ; ?>
-      <div class="row post_content">
-        <div class="col-sm-4">
-          <?php echo do_shortcode( '[google-calendar-events id="1" type="list" max="5"]' ); ?>
-        </div>
-        <div class="col-sm-8">
-          <?php the_content(); ?>
-          <?php //echo do_shortcode('[carousel post_parent="41"]'); ?>
-        </div>
-      </div>
+      <?php get_template_part('header', 'header'); ?>
     <?php endwhile; ?>
 
     <?php else: ?>

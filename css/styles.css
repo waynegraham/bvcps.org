@@ -7651,40 +7651,40 @@ nav a {
   /*}*/
 }
 /* line 58, ../sass/styles.scss */
-#accordion .calendar p.pull-right {
+#accordion .gce-page-list p.pull-right {
   padding-right: 1em;
 }
 /* line 60, ../sass/styles.scss */
-#accordion .calendar ul {
+#accordion .gce-page-list ul {
   list-style: none;
   padding-left: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 /* line 65, ../sass/styles.scss */
-#accordion .calendar ul li {
+#accordion .gce-page-list ul li {
   margin: 1em;
   /*margin-bottom: 1em;*/
   /*padding-bottom: 1em;*/
   border-bottom: 1px dotted #ccc;
 }
 /* line 71, ../sass/styles.scss */
-#accordion .calendar ul li .deck {
+#accordion .gce-page-list ul li .deck {
   font-style: italic;
   color: #333333;
 }
 /* line 76, ../sass/styles.scss */
-#accordion .calendar ul li p {
+#accordion .gce-page-list ul li p {
   margin: 0;
 }
 /* line 80, ../sass/styles.scss */
-#accordion .calendar ul li h3 {
+#accordion .gce-page-list ul li h3 {
   margin: 0;
   font-size: 16px;
   font-weight: bold;
   line-height: 1em;
 }
 /* line 86, ../sass/styles.scss */
-#accordion .calendar ul li h3 a {
+#accordion .gce-page-list ul li h3 a {
   text-decoration: none;
 }
 
