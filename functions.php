@@ -13,6 +13,11 @@ require_once( 'library/bones.php' );            // core functions (don't remove)
 require_once( 'library/bootstrap.php' );        // bootstrap functions
 require_once( 'library/custom-post-type.php' ); // you can disable this if you like
 
+
+if ( ! isset( $content_width ) ) {
+  $content_width = 580;
+}
+
 function bv_theme_styles()
 {
   wp_register_style(
