@@ -15,7 +15,8 @@ get_header();
         </div>
         <div class="col-sm-8">
           <?php the_content(); ?>
-         </div>
+          <?php //echo do_shortcode('[carousel post_parent="41"]'); ?>
+        </div>
       </div>
     <?php endwhile; ?>
 
