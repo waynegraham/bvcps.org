@@ -19,7 +19,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <h1><?php echo get_bloginfo('title'); ?></h1>
+          <a class="logo" title="<?php echo get_bloginfo( 'description' ); ?>" href="<?php echo home_url(); ?>">
+            <img src="<?php bloginfo('template_directory'); ?>/images/bvcps-logo.png">
+            <?php echo get_bloginfo('name'); ?>
+          </a>
         </div>
         <div class="col-md-4">
           <form class="navbar-form navbar-right" role="search" method="get" id="search">
@@ -33,21 +36,21 @@
         </div>
       </div>
     </div>
-
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-        </div>
-
-        <div class="collapse navbar-collapse navbar-responsive-collapse">
-					<?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
-        </div>
-    </nav>
   </header>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-responsive-collapse">
+        <?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+      </div>
+  </nav>
 
   <div class="container">
