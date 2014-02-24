@@ -49,7 +49,19 @@
       </div>
 
       <div class="collapse navbar-collapse navbar-responsive-collapse">
-        <?php wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+        <?php //wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+        <?php
+            wp_nav_menu( array(
+                'menu'              => 'primary',
+                'theme_location'    => 'primary',
+                'depth'             => 2,
+                'container'         => 'div',
+                'container_class'   => 'collapse navbar-collapse navbar-ex1-collapse',
+                'menu_class'        => 'nav navbar-nav',
+                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                'walker'            => new wp_bootstrap_navwalker())
+            );
+        ?>
       </div>
   </nav>
 

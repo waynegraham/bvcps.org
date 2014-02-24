@@ -10,8 +10,13 @@
 //
 //
 require_once( 'library/bones.php' );            // core functions (don't remove)
-require_once( 'library/bootstrap.php' );        // bootstrap functions
 require_once( 'library/custom-post-type.php' ); // you can disable this if you like
+//require_once( 'library/bootstrap.php' );        // bootstrap functions
+require_once( 'library/wp_bootstrap_navwalker.php' );
+
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'goodview' ),
+) );
 
 if ( ! isset( $content_width ) ) {
   $content_width = 800;
