@@ -9,7 +9,7 @@ get_header();
 <div id="content" class="clearfix for">
   <div id="main" class="col-sm-12 clearfix" role="main">
     <?php if( have_posts()) : while ( have_posts()) : the_post() ; ?>
-      <?php get_template_part('header', 'main'); ?>
+      <?php get_template_part('header', 'carousel'); ?>
     <?php endwhile; ?>
 
     <?php else: ?>
