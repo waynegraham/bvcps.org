@@ -7882,31 +7882,31 @@ section .carousel .item > img {
 }
 
 /* line 267, ../sass/styles.scss */
-footer {
+footer[role="footer"] {
   background: #2d2d2d;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #999999;
 }
 /* line 273, ../sass/styles.scss */
-footer .headline {
+footer[role="footer"] .headline {
   border-bottom: 1px dotted #fff;
   margin-bottom: 20px;
 }
 /* line 277, ../sass/styles.scss */
-footer .headline h3 {
+footer[role="footer"] .headline h3 {
   text-transform: uppercase;
   font-weight: 100;
 }
 /* line 285, ../sass/styles.scss */
-footer .social ul {
+footer[role="footer"] .social ul {
   color: #fff;
   font-size: 24px;
   margin: 0;
   padding: 0;
 }
 /* line 291, ../sass/styles.scss */
-footer .social ul li {
+footer[role="footer"] .social ul li {
   float: left;
   display: block;
   list-style-type: none;
@@ -7920,7 +7920,7 @@ footer .social ul li {
   transition: background 0.1s;
 }
 /* line 304, ../sass/styles.scss */
-footer .social ul li a {
+footer[role="footer"] .social ul li a {
   -webkit-transition: color 0.1s;
   transition: color 0.1s;
 }

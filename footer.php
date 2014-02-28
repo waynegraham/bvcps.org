@@ -1,6 +1,6 @@
 </div><!--.container -->
 
-<footer role="content-info">
+<footer role="footer">
   <div class="container">
     <div class="col-sm-4">
       <div class="headline">

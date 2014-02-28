@@ -17,7 +17,7 @@ get_header();
     <?php endif; ?>
   </div>
 </div>
-
+</div> <!-- main container -->
 
 <div class="container paddit">
   <div class="row">
@@ -48,7 +48,8 @@ get_header();
       </div>
     </div>
   </div>
-</div>
+</div><!-- resources -->
+
 
 <div id="engage">
   <div class="container">
