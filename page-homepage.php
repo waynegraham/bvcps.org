@@ -6,6 +6,17 @@
 get_header();
 ?>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="alert alert-danger alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        Buena Vista City Public Schools will be closed <strong>February 31, 2014</strong>.
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="content" class="clearfix for">
   <div id="main" class="col-sm-12 clearfix" role="main">
     <?php if( have_posts()) : while ( have_posts()) : the_post() ; ?>
@@ -73,7 +84,7 @@ get_header();
 
       <div class="col-md-4">
         <div class="button">
-          <a href="">
+          <a href="https://sites.google.com/a/bvcps.net/pmhs-sports-hall-of-fame/">
             <i class="fa fa-trophy"></i> Hall of Fame
           </a>
         </div>

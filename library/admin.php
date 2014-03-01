@@ -53,11 +53,11 @@ http://digwp.com/2010/10/customize-wordpress-dashboard/
 
 // RSS Dashboard Widget
 function bones_rss_dashboard_widget() {
-	if ( function_exists( 'fetch_feed' ) ) {
-		include_once( ABSPATH . WPINC . '/feed.php' );               // include the required file
-		$feed = fetch_feed( 'http://themble.com/feed/rss/' );        // specify the source feed
-		$limit = $feed->get_item_quantity(7);                        // specify number of items
-		$items = $feed->get_items(0, $limit);                        // create an array of items
+  if ( function_exists( 'fetch_feed' ) ) {
+    include_once( ABSPATH . WPINC . '/feed.php' );               // include the required file
+    $feed = fetch_feed( 'http://themble.com/feed/rss/' );        // specify the source feed
+    $limit = $feed->get_item_quantity(7);                        // specify number of items
+    $items = $feed->get_items(0, $limit);                        // create an array of items
 	}
 	if ($limit == 0) echo '<div>The RSS Feed is either empty or unavailable.</div>';   // fallback message
 	else foreach ($items as $item) { ?>
@@ -75,7 +75,7 @@ function bones_rss_dashboard_widget() {
 
 // calling all custom dashboard widgets
 function bones_custom_dashboard_widgets() {
-	wp_add_dashboard_widget( 'bones_rss_dashboard_widget', __( 'Recently on Themble (Customize on admin.php)', 'bonestheme' ), 'bones_rss_dashboard_widget' );
+	//wp_add_dashboard_widget( 'bones_rss_dashboard_widget', __( 'Recently on Themble (Customize on admin.php)', 'bonestheme' ), 'bones_rss_dashboard_widget' );
 	/*
 	Be sure to drop any other created Dashboard Widgets
 	in this function and they will all load.
@@ -122,7 +122,7 @@ you like.
 
 // Custom Backend Footer
 function bones_custom_admin_footer() {
-	_e( '<span id="footer-thankyou">Developed by <a href="http://yoursite.com" target="_blank">Your Site Name</a></span>. Built using <a href="http://themble.com/bones" target="_blank">Bones</a>.', 'bonestheme' );
+	_e( '<span id="footer-thankyou">Developed by <a href="http://bvcps.net" target="_blank">Buena Vista City Public Schools</a></span>. Built using <a href="http://themble.com/bones" target="_blank">Bones</a>.', 'bonestheme' );
 }
 
 // adding it to the admin area

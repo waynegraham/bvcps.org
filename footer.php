@@ -56,7 +56,8 @@ $socialMedia = array(
         <h3>One more block</h3>
       </div>
       <div class="content">
-        <p>More information could go here.</p>
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer3') ) : ?>
+        <?php endif; ?>
       </div>
     </div>
   </div>
