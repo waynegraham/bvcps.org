@@ -11,7 +11,7 @@ get_header();
     <div class="col-md-12">
       <div class="alert alert-danger alert-dismissable">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-        Buena Vista City Public Schools will be closed <strong>February 31, 2014</strong>.
+        Buena Vista City Public Schools will be closed <strong>March 3, 2014</strong>.
       </div>
     </div>
   </div>

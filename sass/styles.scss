@@ -4,8 +4,9 @@ url(http://fonts.googleapis.com/css?family=Raleway:400,700);
 
 // customize bootstrap variables here:
 @import "variables";
-@import "bootstrap";
-@import "retina";
+@import "bootstrap"; // main bootstrap import
+@import "calendar";  // google calendar customizations
+@import "retina";    // for 2x images (apple retina displays)
 
 /*$header-bg: #2c3e50;*/
 /*$header-bg: #4859D0;*/
