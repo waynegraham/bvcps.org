@@ -6,16 +6,35 @@
 get_header();
 ?>
 
-<div class="container">
+<?php
+$today = getdate();
+$args = array(
+  'post_type' => 'closings',
+  'datequery' => array(
+    'year' => $today["year"],
+    'month' => $today["month"],
+    'day' => $today['mday']
+  ),
+  'cache_results' => true
+);
+$closings = new WP_Query($args);
+?>
+<?php if( $closings->have_posts() ): ?>
+  <?php $closings->the_post(); ?>
+
+<div class="container closing-alert">
   <div class="row">
     <div class="col-md-12">
       <div class="alert alert-danger alert-dismissable">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-        Buena Vista City Public Schools will be closed <strong>March 3, 2014</strong>.
-      </div>
+        <?php echo get_the_title(); ?>
+        <?php wp_reset_postdata(); ?>
+        </div>
     </div>
   </div>
 </div>
+
+<?php endif; ?>
 
 <div id="content" class="clearfix for">
   <div id="main" class="col-sm-12 clearfix" role="main">

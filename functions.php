@@ -151,5 +151,46 @@ function goodview_widgets_init()
 // enable shortcodes in widgets
 add_filter( 'widget_text', 'do_shortcode' );
 
+function good_view_closings() {
 
+	$labels = array(
+		'name'                => _x( 'closings', 'Post Type General Name', 'goodview' ),
+		'singular_name'       => _x( 'closing', 'Post Type Singular Name', 'goodview' ),
+		'menu_name'           => __( 'School Closings', 'goodview' ),
+		'parent_item_colon'   => __( '', 'goodview' ),
+		'all_items'           => __( '', 'goodview' ),
+		'view_item'           => __( 'View Closing', 'goodview' ),
+		'add_new_item'        => __( 'Add New Closing', 'goodview' ),
+		'add_new'             => __( 'Add New', 'goodview' ),
+		'edit_item'           => __( 'Edit Closing', 'goodview' ),
+		'update_item'         => __( 'Update Closing', 'goodview' ),
+		'search_items'        => __( 'Search Closings', 'goodview' ),
+		'not_found'           => __( 'Not found', 'goodview' ),
+		'not_found_in_trash'  => __( 'Not found in Trash', 'goodview' ),
+	);
+	$args = array(
+		'label'               => __( 'closings', 'goodview' ),
+		'description'         => __( 'School', 'goodview' ),
+		'labels'              => $labels,
+		'supports'            => array( 'title', 'revisions', ),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => 5,
+		'menu_icon'           => '',
+		'can_export'          => true,
+		'has_archive'         => false,
+		'exclude_from_search' => true,
+		'publicly_queryable'  => false,
+		'capability_type'     => 'post',
+	);
+	register_post_type( 'closings', $args );
+
+}
+
+// Hook into the 'init' action
+add_action( 'init', 'good_view_closings', 0 );
 
