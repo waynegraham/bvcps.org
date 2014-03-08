@@ -21,7 +21,7 @@
         <div class="col-md-8">
           <a class="logo" title="<?php echo get_bloginfo( 'description' ); ?>" href="<?php echo home_url(); ?>">
             <img src="<?php bloginfo('template_directory'); ?>/images/bvcps-logo.png">
-            <?php echo get_bloginfo('name'); ?>
+            <span class="name"><?php echo get_bloginfo('name'); ?></span>
           </a>
         </div>
         <div class="col-md-4">

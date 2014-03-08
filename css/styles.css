@@ -7621,30 +7621,37 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-/*section {*/
-/*.post_content {*/
-/*font-family: "Open Sans", sans-serif;*/
-/*}*/
-/*}*/
-/* line 30, ../sass/styles.scss */
+/* line 24, ../sass/styles.scss */
 #header {
   background: #0431b4;
+  height: 80px;
   /*padding-top: 50px;*/
   /*padding-bottom: 50px;*/
 }
-/* line 35, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
 #header .logo {
   font-size: 36px;
-  margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 41, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
+#header .logo img {
+  margin-top: 12px;
+}
+/* line 34, ../sass/styles.scss */
+#header .logo .name {
+  vertical-align: bottom;
+}
+/* line 37, ../sass/styles.scss */
 #header a, #header a:hover {
   color: #fff;
 }
-/* line 43, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 #header a:hover, #header a:hover:hover {
   text-decoration: none;
+}
+/* line 42, ../sass/styles.scss */
+#header .navbar-form {
+  margin-top: 20px;
 }
 
 /* line 47, ../sass/styles.scss */

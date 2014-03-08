@@ -21,26 +21,26 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-/*section {*/
-  /*.post_content {*/
-    /*font-family: "Open Sans", sans-serif;*/
-  /*}*/
-/*}*/
-
 #header {
   background: $header-bg;
+  height: 80px;
   /*padding-top: 50px;*/
   /*padding-bottom: 50px;*/
 
   .logo {
     font-size: 36px;
-    margin-top: 20px;
     margin-bottom: 10px;
+    img { margin-top: 12px; }
+    .name { vertical-align: bottom; }
   }
 
   a, a:hover {
     color: #fff;
     &:hover { text-decoration: none; }
+  }
+
+  .navbar-form {
+    margin-top: 20px;
   }
 }
 
