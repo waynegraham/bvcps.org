@@ -52,10 +52,20 @@ nav {
   }
 }
 
+// Bootstrap overrides
+.navbar {
+  margin-bottom: 0;
+}
+
 .navbar-form {
   margin-top: 30px;
 }
 
+.page-header {
+  margin: 20px 0;
+}
+
+// accordion
 #accordion {
   padding-left: 15px;
   /*$accordion-bg: #E8760C;*/
@@ -437,6 +447,12 @@ footer[role="footer"] {
 }
 
 @media (max-width: 768px) {
+
+
+  .main {
+    padding: 0 15px;
+  }
+
   .resources ul {
 		padding: 10px 0;
 		width: 100%;
