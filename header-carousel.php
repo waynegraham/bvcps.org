@@ -22,28 +22,26 @@
             </h4>
           </div>
           <div id="collapseFive" class="panel-collapse collapse">
-            <div class="list-group">
-              <a href="#" class="list-group-item">
-                <h4 class="list-group-item-heading">List group item heading</h4>
-                <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-              </a>
-            </div>
-            <div class="list-group">
-              <a href="#" class="list-group-item active">
-                <h4 class="list-group-item-heading">List group item heading</h4>
-                <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-              </a>
-            </div>
-            <div class="list-group">
-              <a href="#" class="list-group-item">
-                <h4 class="list-group-item-heading">List group item heading</h4>
-                <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<?php
+// TODO: refactor as a function
+$args = array( 'numberposts' => 5 );
+
+$recent_posts = wp_get_recent_posts( $args, OBJECT );
+
+?>
+
+<?php foreach($recent_posts as $post): ?>
+<?php setup_postdata($post);?>
+  <div class="list-group">
+    <a class="list-group-item" href="<?php the_permalink()?>">
+        <h4 class="list-group-item-heading"><?php  the_title(); ?></h4>
+      <p class="list-group-item-text">
+        <?php the_excerpt(); ?>
+    </a>
+  </div>
+<?php endforeach; ?>
+
+<?php wp_reset_postdata(); ?>
 
     <div class="col-md-9">
       <?php the_content(); ?>
