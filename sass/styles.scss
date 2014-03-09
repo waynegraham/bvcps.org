@@ -21,6 +21,12 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
+nav.wp-prev-next {
+  background-color: #fff;
+  .previous { float: left; }
+  .next { float: right; }
+}
+
 #header {
   background: $header-bg;
   height: 80px;
