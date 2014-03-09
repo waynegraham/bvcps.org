@@ -10,12 +10,11 @@ get_header();
 $today = getdate();
 $args = array(
   'post_type' => 'closings',
-  'datequery' => array(
+  'date_query' => array(
     'year' => $today["year"],
     'month' => $today["month"],
     'day' => $today['mday']
-  ),
-  'cache_results' => true
+  )
 );
 $closings = new WP_Query($args);
 ?>
