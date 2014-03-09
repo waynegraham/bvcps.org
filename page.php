@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div id="content" class="clearfix row">
-  <div class="main" class="col-sm-8 clearfix" role="main">
+  <div id="main" class="col-sm-8 clearfix" role="main">
     <?php if ( have_posts()): while ( have_posts() ) : the_post(); ?>
       <article id="post-<?php the_ID(); ?>">
         <header>
@@ -31,7 +31,7 @@
       </article>
     <?php endif; ?>
   </div><!-- .main -->
-  <?php get_sidebar(); ?>
-</div>
+  <?php get_sidebar(); // sidebar ?>
+</div><!-- content -->
 
 <?php get_footer(); ?>

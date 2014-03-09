@@ -46,8 +46,5 @@ $recent_posts = wp_get_recent_posts( $args, OBJECT );
     <div class="col-md-9">
       <?php the_content(); ?>
     </div>
-
   </div>
-
-
- </section> <!-- carousel -->
+</section> <!-- carousel -->

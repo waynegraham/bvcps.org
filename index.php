@@ -5,9 +5,6 @@
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
         <header>
-          <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-            <?php the_post_thumbnail( 'wpbs-featured' ); ?>
-          </a>
           <div class="page-header">
             <h2>
               <a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
@@ -29,6 +26,10 @@
         </header>
 
         <section class="post_content clearfix">
+           <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+            <?php the_post_thumbnail( 'wpbs-featured' ); ?>
+          </a>
+
           <?php the_content( __( "Read more &raquo;", "wpbootstrap" ) ); ?>
         </section>
 
@@ -43,7 +44,8 @@
     <?php else: ?>
 
     <?php endif; ?>
-  </div>
+  </div><!-- #main -->
+  <?php //get_sidebar(); // sidebar 1 ?>
 </div>
 
 <?php get_footer(); ?>

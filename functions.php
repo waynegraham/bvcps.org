@@ -84,6 +84,10 @@ if ( ! isset( $content_width ) ) {
   $content_width = 800;
 }
 
+add_image_size( 'wpbs-featured', 780, 300, true );
+add_image_size( 'wpbs-featured-home', 970, 311, true);
+add_image_size( 'wpbs-featured-carousel', 970, 400, true);
+
 function bv_theme_styles()
 {
   wp_register_style(
