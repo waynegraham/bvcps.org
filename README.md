@@ -81,7 +81,7 @@ Image** button to use that image.
 
 <blockquote>
   <strong>Note on Image Filesize:</strong> Images for use in the
-carousel should be **at least** 800px x 500px, preferablly larger.
+carousel should be <strong>at least</strong> 800px x 500px, preferablly larger.
 Wordpress will generate derivative images for other sizes of images, so
 you do not need to post-process image sizes.
 </blockquote>
