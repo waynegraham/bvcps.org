@@ -100,44 +100,53 @@ function bv_theme_styles()
 function bv_theme_js()
 {
   wp_register_script(
-    'alert',
-    get_template_directory_uri() . '/js/bootstrap/alert.js',
+    'goodview',
+    get_template_directory_uri() . '/js/goodview.min.js',
     array('jquery'),
     '1.2',
     true
   );
 
-  wp_register_script(
-    'carousel',
-    get_template_directory_uri() . '/js/bootstrap/carousel.js',
-    array('jquery'),
-    '1.2',
-    true
-  );
 
-  wp_register_script(
-    'collapse',
-    get_template_directory_uri() . '/js/bootstrap/collapse.js',
-    array('jquery'),
-    '1.2',
-    true
-  );
+  //wp_register_script(
+    //'alert',
+    //get_template_directory_uri() . '/js/bootstrap/alert.js',
+    //array('jquery'),
+    //'1.2',
+    //true
+  //);
 
-  wp_register_script(
-    'dropdown',
-    get_template_directory_uri() . '/js/bootstrap/dropdown.js',
-    array('jquery'),
-    '1.2',
-    true
-  );
+  //wp_register_script(
+    //'carousel',
+    //get_template_directory_uri() . '/js/bootstrap/carousel.js',
+    //array('jquery'),
+    //'1.2',
+    //true
+  //);
 
-  wp_register_script(
-    'transition',
-    get_template_directory_uri() . '/js/bootstrap/transition.js',
-    array('jquery'),
-    '1.2',
-    true
-  );
+  //wp_register_script(
+    //'collapse',
+    //get_template_directory_uri() . '/js/bootstrap/collapse.js',
+    //array('jquery'),
+    //'1.2',
+    //true
+  //);
+
+  //wp_register_script(
+    //'dropdown',
+    //get_template_directory_uri() . '/js/bootstrap/dropdown.js',
+    //array('jquery'),
+    //'1.2',
+    //true
+  //);
+
+  //wp_register_script(
+    //'transition',
+    //get_template_directory_uri() . '/js/bootstrap/transition.js',
+    //array('jquery'),
+    //'1.2',
+    //true
+  //);
 
   wp_register_script(
     'retina',
@@ -147,11 +156,12 @@ function bv_theme_js()
     true
   );
 
-  wp_enqueue_script('alert');
-  wp_enqueue_script('carousel');
-  wp_enqueue_script('collapse');
-  wp_enqueue_script('dropdown');
-  wp_enqueue_script('transition');
+  wp_enqueue_script('goodview');
+  //wp_enqueue_script('alert');
+  //wp_enqueue_script('carousel');
+  //wp_enqueue_script('collapse');
+  //wp_enqueue_script('dropdown');
+  //wp_enqueue_script('transition');
   wp_enqueue_script('retina');
 
 }
