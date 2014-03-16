@@ -6,6 +6,8 @@
 @import "bootstrap"; // main bootstrap import
 @import "calendar";  // google calendar customizations
 @import "retina";    // for 2x images (apple retina displays)
+@import "compass/css3/";
+
 
 /*$header-bg: #2c3e50;*/
 /*$header-bg: #4859D0;*/
@@ -43,6 +45,11 @@ img {
 }
 
 // crazy bootstrap and wordpress collisions
+.carousel-caption {
+  background: rgba(0,0,0, 0.8);
+  @include border-radius(10px);
+}
+
 
 .exerpt-read-more {
   text-align: right;
