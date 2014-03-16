@@ -115,17 +115,9 @@ function bv_theme_js()
     'bootstrap',
     '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js',
     array('jquery'),
-    '',
+    '3.1.1',
     true
   );
-
-  //wp_register_script(
-    //'retina',
-    //get_template_directory_uri() . '/js/retina.min.js',
-    //array(),
-    //'',
-    //true
-  //);
 
   //wp_enqueue_script('goodview');
   wp_enqueue_script('bootstrap');
@@ -188,3 +180,8 @@ function good_view_closings() {
 // Hook into the 'init' action
 add_action( 'init', 'good_view_closings', 0 );
 
+
+function custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );

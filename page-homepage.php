@@ -90,13 +90,18 @@ $closings = new WP_Query($args);
     <div class="row inner">
       <div class="col-md-4">
         <div class="button">
-          <i class="fa fa-globe"></i> Be a Blue
+          <a href="https://beablue.herokuapp.com">
+            <i class="fa fa-globe"></i> Be a Blue
+          </a>
         </div>
       </div>
 
       <div class="col-md-4">
         <div class="button">
-          <i class="fa fa-cloud"></i> Blue's Foundation
+          <!-- TODO: fix this for production -->
+          <a href="/bvcps/our-community/blues-education-foundation/">
+            <i class="fa fa-cloud"></i> Blue's Foundation
+          </a>
         </div>
       </div>
 
