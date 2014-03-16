@@ -38,10 +38,10 @@ $socialMedia = array(
   'twitter' => '',
   'facebook' => 'https://m.facebook.com/profile.php?id=145021112207748',
   'google-plus' => '',
-  'pinterest' => '',
+  //'pinterest' => '',
   'youtube' => '',
-  'vimeo-square' => '',
-  'tumblr' => ''
+  //'vimeo-square' => '',
+  //'tumblr' => ''
 );
 ?>
         <ul>
@@ -53,7 +53,7 @@ $socialMedia = array(
     </div>
     <div class="col-sm-4">
       <div class="headline">
-        <h3>One more block</h3>
+        <h3>Work with Us</h3>
       </div>
       <div class="content">
         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer3') ) : ?>
