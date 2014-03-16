@@ -112,15 +112,23 @@ function bv_theme_js()
   );
 
   wp_register_script(
-    'retina',
-    get_template_directory_uri() . '/js/retina.min.js',
-    array(),
-    '1.2',
+    'bootstrap',
+    '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js',
+    array('jquery'),
+    '',
     true
   );
 
-  wp_enqueue_script('goodview');
-  wp_enqueue_script('retina');
+  //wp_register_script(
+    //'retina',
+    //get_template_directory_uri() . '/js/retina.min.js',
+    //array(),
+    //'',
+    //true
+  //);
+
+  //wp_enqueue_script('goodview');
+  wp_enqueue_script('bootstrap');
 
 }
 

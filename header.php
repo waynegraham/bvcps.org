@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
-<html lang="<?php language_attributes(); ?> ">
+<html <?php language_attributes(); ?>>
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><?php wp_title( '|', true, 'right' ); ?></title>	
+  <title><?php bloginfo('name'); ?></title>	
 
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -18,9 +18,10 @@
   <header role="banner" id="header">
     <div class="container">
       <div class="row">
+
         <div class="col-md-8">
           <a class="logo" title="<?php echo get_bloginfo( 'description' ); ?>" href="<?php echo home_url(); ?>">
-            <img src="<?php bloginfo('template_directory'); ?>/images/bvcps-logo.png">
+            <img alt="<?php bloginfo('name'); ?> Logo" src="<?php bloginfo('template_directory'); ?>/images/bvcps-logo.png">
             <span class="name"><?php echo get_bloginfo('name'); ?></span>
           </a>
         </div>
@@ -49,7 +50,6 @@
       </div>
 
       <div class="collapse navbar-collapse navbar-responsive-collapse">
-        <?php //wp_bootstrap_main_nav(); // Adjust using Menus in Wordpress Admin ?>
         <?php
             wp_nav_menu( array(
                 'menu'              => 'primary',
@@ -63,6 +63,7 @@
             );
         ?>
       </div>
+    </div>
   </nav>
 
   <div class="container">

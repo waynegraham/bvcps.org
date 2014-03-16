@@ -28,6 +28,7 @@ plugins interface in the Wordpress admin panel.
 * Google Calendar Events
 * Jetpack
 * WP Bootstrap Carousel
+* WP Retina 2x
 * WP Super Cache
 
 ## Adding Content

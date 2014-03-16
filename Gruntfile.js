@@ -62,7 +62,7 @@ module.exports = function(grunt) {
         },
         files: {
           'js/goodview.min.js': [
-            'js/bootstrap/**/*.js'
+            //'js/bootstrap/**/*.js'
           ]
         }
       }
