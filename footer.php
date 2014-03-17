@@ -29,11 +29,10 @@
     </div>
     <div class="col-sm-4">
       <div class="headline">
-        <h3>Go Social</h3>
+        <h3>Keep Up with Us</h3>
       </div>
       <div class="content social">
-        <p>Stay up to date with us:</p>
-<?php
+       <?php
 $socialMedia = array(
   'twitter' => '',
   'facebook' => 'https://m.facebook.com/profile.php?id=145021112207748',

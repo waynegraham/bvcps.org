@@ -35,6 +35,9 @@ $closings = new WP_Query($args);
 
 <?php endif; ?>
 
+
+
+
 <div id="content" class="clearfix for">
   <div id="main" class="col-sm-12 clearfix" role="main">
     <?php if( have_posts()) : while ( have_posts()) : the_post() ; ?>
@@ -47,6 +50,8 @@ $closings = new WP_Query($args);
   </div>
 </div>
 </div> <!-- main container -->
+
+
 
 <div class="container paddit">
   <div class="row">
@@ -79,6 +84,19 @@ $closings = new WP_Query($args);
   </div>
 </div><!-- resources -->
 
+<!-- <div class="container">
+  <div class="row">
+    <div id="colors" class="col-md-12">
+      <div class="base-color-light-30"></div>
+      <div class="base-color-light-20"></div>
+      <div class="base-color-light-10"></div>
+      <div class="base-color"></div>
+      <div class="base-color-dark-10"></div>
+      <div class="base-color-dark-20"></div>
+      <div class="base-color-dark-30"></div>
+    </div>
+  </div>
+</div>-->
 
 <div id="engage">
   <div class="container">
