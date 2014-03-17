@@ -29,7 +29,7 @@
     </div>
     <div class="col-sm-4">
       <div class="headline">
-        <h3>Keep Up with Us</h3>
+        <h3>Follow Us</h3>
       </div>
       <div class="content social">
        <?php
