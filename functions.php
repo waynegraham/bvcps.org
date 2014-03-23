@@ -184,4 +184,4 @@ add_action( 'init', 'good_view_closings', 0 );
 function custom_excerpt_length( $length ) {
 	return 20;
 }
-add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+//add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );

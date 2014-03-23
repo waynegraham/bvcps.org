@@ -72,7 +72,7 @@ $closings = new WP_Query($args);
           </li>
           <li>
             <i class="fa fa-globe fa-3x"></i>
-            <p>Alumni<br><a href="alumni">Resources for alumni</a></p>
+            <p>Alumni<br><a href="https://beablue.herokuapp.com">Resources for alumni</a></p>
           </li>
           <li>
             <i class="fa fa-briefcase fa-3x"></i>

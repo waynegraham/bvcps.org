@@ -1,6 +1,6 @@
 <?php
 // TODO: refactor as a function
-  $args = array( 'numberposts' => 3 );
+  $args = array( 'numberposts' => 5 );
   $recent_posts = wp_get_recent_posts( $args, OBJECT );
 ?>
 
@@ -25,8 +25,7 @@
                 <h4 class="list-group-item-heading">
                   <a href="<?php the_permalink()?>"><?php the_title(); ?></a>
                 </h4>
-                <p class="list-group-item-text"><?php echo get_the_excerpt(); ?></p>
-              </div>
+                              </div>
             <?php endforeach; ?>
             <?php wp_reset_postdata(); ?>
             </div><!-- .list-group-->
