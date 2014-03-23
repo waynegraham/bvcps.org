@@ -61,9 +61,7 @@ module.exports = function(grunt) {
           sourceMap: 'js/map/source-map.js'
         },
         files: {
-          'js/goodview.min.js': [
-            //'js/bootstrap/**/*.js'
-          ]
+          'js/goodview.min.js': [ 'js/source/**/*.js' ]
         }
       }
     },

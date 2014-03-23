@@ -107,7 +107,7 @@ function bv_theme_js()
     'goodview',
     get_template_directory_uri() . '/js/goodview.min.js',
     array('jquery'),
-    '1.2',
+    '1.0',
     true
   );
 
@@ -119,7 +119,7 @@ function bv_theme_js()
     true
   );
 
-  //wp_enqueue_script('goodview');
+  wp_enqueue_script('goodview');
   wp_enqueue_script('bootstrap');
 
 }
