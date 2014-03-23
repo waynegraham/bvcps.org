@@ -116,8 +116,10 @@ nav.wp-prev-next {
     &:hover { text-decoration: none; }
   }
 
-  .navbar-form {
-    margin-top: 20px;
+  form {
+    .input-group {
+      margin-top: 20px;
+    }
   }
 }
 
@@ -131,7 +133,7 @@ nav {
 
 // Bootstrap overrides
 .navbar {
-  margin-bottom: 0;
+  /*margin-bottom: 0;*/
 }
 
 .navbar-form {
@@ -495,6 +497,11 @@ footer[role="footer"] {
   }
 }
 
+/**
+ * Responsive
+ **/
+
+/* special */
 
 @media (max-width: 1200px) {
   .resources {
@@ -513,7 +520,12 @@ footer[role="footer"] {
   }
 }
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
+
+  #header {
+    height: 130px;
+  }
+
   .resources {
     li {
       width: 143px;
@@ -530,7 +542,6 @@ footer[role="footer"] {
 }
 
 @media (max-width: 768px) {
-
 
   .main {
     padding: 0 15px;
@@ -569,5 +580,23 @@ footer[role="footer"] {
 	.resources li:hover p a {
 		visibility: visible;
 	}
+}
+
+@media (max-width: 620px) {
+  #header {
+    .logo {
+      font-size: 24px;
+      img { display: none; }
+    }
+  }
+
+}
+
+@media only screen and (max-height: 340px) {
+
+}
+
+@media only screen and (max-height: 325px) {
+
 }
 

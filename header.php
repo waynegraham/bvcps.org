@@ -26,7 +26,7 @@
           </a>
         </div>
         <div class="col-md-4">
-          <form class="navbar-form navbar-right" role="search" method="get" id="search">
+          <form class="" role="search" method="get" id="search">
             <div class="input-group">
               <input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="<?php _e('Search','wpbootstrap'); ?>" data-provide="typeahead" data-items="4" data-source='<?php echo $typeahead_data; ?>'>
               <div class="input-group-btn">
