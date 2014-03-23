@@ -8195,32 +8195,32 @@ footer[role="footer"] .social ul li a {
     height: 130px;
   }
 
-  /* line 530, ../sass/styles.scss */
+  /* line 532, ../sass/styles.scss */
   .resources li {
     width: 143px;
   }
-  /* line 533, ../sass/styles.scss */
+  /* line 535, ../sass/styles.scss */
   .resources li:hover {
     width: 200px !important;
   }
-  /* line 538, ../sass/styles.scss */
+  /* line 540, ../sass/styles.scss */
   .resources ul:hover li {
     width: 128px;
   }
 }
 @media (max-width: 768px) {
-  /* line 546, ../sass/styles.scss */
+  /* line 548, ../sass/styles.scss */
   .main {
     padding: 0 15px;
   }
 
-  /* line 550, ../sass/styles.scss */
+  /* line 552, ../sass/styles.scss */
   .resources ul {
     padding: 10px 0;
     width: 100%;
   }
 
-  /* line 554, ../sass/styles.scss */
+  /* line 556, ../sass/styles.scss */
   .resources li {
     float: none;
     padding: 20px;
@@ -8229,28 +8229,28 @@ footer[role="footer"] .social ul li a {
     margin: 0 0 1px 0;
   }
 
-  /* line 561, ../sass/styles.scss */
+  /* line 563, ../sass/styles.scss */
   .resources li p {
     white-space: normal;
   }
 
-  /* line 564, ../sass/styles.scss */
+  /* line 566, ../sass/styles.scss */
   .resources li p a {
     visibility: visible;
   }
 
-  /* line 567, ../sass/styles.scss */
+  /* line 569, ../sass/styles.scss */
   .resources ul:hover li {
     width: 100%;
   }
 
-  /* line 570, ../sass/styles.scss */
+  /* line 572, ../sass/styles.scss */
   .resources li:hover {
     width: 100% !important;
     text-align: center;
   }
 
-  /* line 574, ../sass/styles.scss */
+  /* line 576, ../sass/styles.scss */
   .resources li:hover i {
     float: none;
     line-height: 2px;
@@ -8258,17 +8258,17 @@ footer[role="footer"] .social ul li a {
     margin: 0;
   }
 
-  /* line 580, ../sass/styles.scss */
+  /* line 582, ../sass/styles.scss */
   .resources li:hover p a {
     visibility: visible;
   }
 }
 @media (max-width: 620px) {
-  /* line 587, ../sass/styles.scss */
+  /* line 589, ../sass/styles.scss */
   #header .logo {
     font-size: 24px;
   }
-  /* line 589, ../sass/styles.scss */
+  /* line 591, ../sass/styles.scss */
   #header .logo img {
     display: none;
   }
