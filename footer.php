@@ -43,11 +43,12 @@ $socialMedia = array(
   //'tumblr' => ''
 );
 ?>
-        <ul>
+        <ul class="clearfix">
           <?php foreach($socialMedia as $k => $v): ?>
           <li><a href="<?php echo $v ?>"><i class="fa fa-<?php echo $k; ?>"></i></a></li>
           <?php endforeach; ?>
         </ul>
+
       </div>
     </div>
     <div class="col-sm-4">
@@ -55,7 +56,8 @@ $socialMedia = array(
         <h3>Work with Us</h3>
       </div>
       <div class="content">
-        Buena Vista City Public Schools is an Equal Opportunity Employer.  The Buena Vista City School Board does not discriminate on the basis of race, color, national origin, age, religion, political affiliation, handicapping conditions, or sex in an programs of employment.
+        <p><a href="http://www.bvcps.net/employment-opportunities">Current Openings</a></p>
+        <p>Buena Vista City Public Schools is an Equal Opportunity Employer.  The Buena Vista City School Board does not discriminate on the basis of race, color, national origin, age, religion, political affiliation, handicapping conditions, or sex in an programs of employment.</p>
         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer3') ) : ?>
         <?php endif; ?>
       </div>

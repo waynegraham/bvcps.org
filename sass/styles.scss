@@ -6,16 +6,75 @@
 @import "bootstrap"; // main bootstrap import
 @import "calendar";  // google calendar customizations
 @import "retina";    // for 2x images (apple retina displays)
+@import "compass/css3/";
 
 /*$header-bg: #2c3e50;*/
 /*$header-bg: #4859D0;*/
 /*$header-bg: #313CA3;*/
 $header-bg: #0431b4;
 
+$light-30: lighten($header-bg, 30%);
+$light-20: lighten($header-bg, 20%);
+$light-10: lighten($header-bg, 10%);
+$dark-10: darken($header-bg, 10%);
+$dark-20: darken($header-bg, 20%);
+$dark-30: darken($header-bg, 30%);
+
+#colors div {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.base-color-light-30 { background-color: $light-30; }
+.base-color-light-20 { background-color: $light-20; }
+.base-color-light-10 { background-color: $light-10; }
+.base-color { background-color: $header-bg; }
+.base-color-dark-10 { background-color: $dark-10; }
+.base-color-dark-20 { background-color: $dark-20; }
+.base-color-dark-30 { background-color: $dark-30; }
+
+
 // required wp stuff
 .sticky {  }
 .gallery-caption {}
 .bypostauthor {}
+
+// image overrides
+
+img {
+  height: auto;
+
+  &.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  &.alignleft {
+    clear: left;
+    float:left;
+    margin:0 1em 1em 0
+  }
+
+  &.alignright {
+    clear: right;
+    float:right;
+    margin:0 0 1em 1em
+  }
+
+}
+
+// crazy bootstrap and wordpress collisions
+.carousel-caption {
+  background: rgba(0,0,0, 0.8);
+  @include border-radius(10px);
+}
+
+
+.exerpt-read-more {
+  text-align: right;
+}
 
 // css
 
@@ -360,7 +419,8 @@ footer[role="footer"] {
 
 // engagement test
 #engage {
-  $engage-bg: #4baad3;
+  /*$engage-bg: #4baad3;*/
+  $engage-bg: #066ccb;
 
   background: $engage-bg;
   /*background: #34495e;*/
@@ -383,6 +443,7 @@ footer[role="footer"] {
       background: #3a9ac4;
       padding: 15px !important;
       margin-bottom: 10px;
+      @include border-radius(5px);
       @include transition(background 0.6s);
 
       a {
@@ -509,3 +570,4 @@ footer[role="footer"] {
 		visibility: visible;
 	}
 }
+
