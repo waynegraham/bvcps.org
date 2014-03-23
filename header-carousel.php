@@ -27,6 +27,11 @@
                 </h4>
               </div>
             <?php endforeach; ?>
+            <div class="list-group-item">
+              <p class="list-group-item-text">
+                <a href="<?php echo get_year_link(''); ?>">Additional Stories &raquo;</a>
+              </p>
+            </div>
             <?php wp_reset_postdata(); ?>
             </div><!-- .list-group-->
           </div><!-- #collapseFive -->
