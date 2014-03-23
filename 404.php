@@ -10,8 +10,8 @@
 
               <div class="hero-unit">
 
-                <h1><?php _e("Epic 404 - Article Not Found","wpbootstrap"); ?></h1>
-                <p><?php _e("This is embarassing. We can't find what you were looking for.","wpbootstrap"); ?></p>
+                <h1><?php _e("Epic 404 - Article Not Found", "wpbootstrap"); ?></h1>
+                <p><?php _e("This is embarassing. We can't find what you were looking for.", "wpbootstrap"); ?></p>
 
               </div>
 
