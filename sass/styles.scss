@@ -36,9 +36,9 @@ $dark-30: darken($header-bg, 30%);
 
 
 // required wp stuff
-.sticky {  }
-.gallery-caption {}
-.bypostauthor {}
+.sticky { /* ignore */ }
+.gallery-caption {/* ignore */ }
+.bypostauthor {/* ignore */ }
 
 // image overrides
 

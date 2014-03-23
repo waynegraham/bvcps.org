@@ -25,7 +25,7 @@
                 <h4 class="list-group-item-heading">
                   <a href="<?php the_permalink()?>"><?php the_title(); ?></a>
                 </h4>
-                              </div>
+              </div>
             <?php endforeach; ?>
             <?php wp_reset_postdata(); ?>
             </div><!-- .list-group-->
