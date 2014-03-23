@@ -53,7 +53,7 @@
       </div><!--.panelgroup -->
     </div><!-- .col3 -->
 
-    <div class="col-md-9">
+    <div class="col-sm-9 col-md-9">
       <?php the_content(); ?>
     </div>
   </div><!-- .row -->

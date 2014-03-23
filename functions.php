@@ -81,7 +81,7 @@ function goodview_register_sidebars()
 }
 
 if ( ! isset( $content_width ) ) {
-  $content_width = 800;
+  $content_width = 1200;
 }
 
 add_image_size( 'wpbs-featured', 780, 300, true );
