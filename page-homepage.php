@@ -60,15 +60,17 @@ $closings = new WP_Query($args);
         <ul>
           <li>
             <i class="fa fa-home fa-3x"></i>
-            <p>Parents<br><a href="parents">Resources for parents</a></p>
+            <p>Parents<br>
+            <a href="/parents/">Resources for parents</a></p>
           </li>
           <li>
             <i class="fa fa-compass fa-3x"></i>
-            <p>Prospective Families<br><a href="prospective-families">Resources for prospective families</a></p>
+            <p>Prospective Families<br>
+            <a href="/prospective-families/">Resources for prospective families</a></p>
           </li>
           <li>
             <i class="fa fa-folder-open-o fa-3x"></i>
-            <p>Students<br><a href="students">Resources for students</a></p>
+            <p>Students<br><a href="/students/">Resources for students</a></p>
           </li>
           <li>
             <i class="fa fa-globe fa-3x"></i>
@@ -76,7 +78,7 @@ $closings = new WP_Query($args);
           </li>
           <li>
             <i class="fa fa-briefcase fa-3x"></i>
-            <p>Faculty &amp; Staff<br><a href="faculty-and-staff">Resources for faculty and staff</a></p>
+            <p>Faculty &amp; Staff<br><a href="/faculty-and-staff/">Resources for faculty and staff</a></p>
           </li>
         </ul>
       </div>

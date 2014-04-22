@@ -5,7 +5,7 @@ require 'bootstrap-sass'
 # Set this to the root of your project when deployed:
 # TODO fix this for deployment
 
-http_path = "/bvcps/wp-content/themes/bvcps.org/"
+http_path = "/wp-content/themes/bvcps.org/"
 css_dir = "css"
 sass_dir = "sass"
 images_dir = "images"
