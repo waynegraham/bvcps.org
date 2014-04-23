@@ -23,7 +23,7 @@
 }());
 
 jQuery(document).ready(function() {
-  jQuery('.resources').click(function() {
+  jQuery('.resources li').click(function() {
     window.location = jQuery(this).find('a').attr('href');
     return false;
   });
