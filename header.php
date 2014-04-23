@@ -30,7 +30,7 @@
             <div class="input-group">
               <input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="<?php _e('Search','wpbootstrap'); ?>" data-provide="typeahead" data-items="4" data-source='<?php echo $typeahead_data; ?>'>
               <div class="input-group-btn">
-                  <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                  <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
               </div>
              </div>
           </form>

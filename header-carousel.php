@@ -13,7 +13,7 @@
           <div class="panel-heading">
             <h4 class="panel-title">
               <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                <span class="glyphicon glyphicon-flash"></span> News
+                <span class="fa fa-flash"></span> News
               </a>
             </h4>
           </div>
