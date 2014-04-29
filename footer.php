@@ -34,9 +34,9 @@
       <div class="content social">
        <?php
 $socialMedia = array(
-  'twitter' => '',
+  //'twitter' => '',
   'facebook' => 'https://m.facebook.com/profile.php?id=145021112207748',
-  'google-plus' => '',
+  //'google-plus' => '',
   //'pinterest' => '',
   'youtube' => '',
   //'vimeo-square' => '',
