@@ -23,7 +23,7 @@
           <span class="value">540.261.2129</span>
         </div>
         <div class="email">
-          Email: <a class="value" href="mailto:todo">need an email address</a>
+          Email: <a class="value" href="http://www.jotform.us/form/40482319994161">Contact Us</a>
         </div>
       </div>
     </div>
