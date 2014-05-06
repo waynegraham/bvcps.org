@@ -208,13 +208,13 @@ section {
       height: $carousel-height;
       overflow: hidden;
       width: 100%;
-      
+
       img {
         position: absolute;
         top: 0;
         left: 0;
         min-width: 100%;
-        height: $carousel-height;
+        /*height: $carousel-height;*/
       }
     }
 
