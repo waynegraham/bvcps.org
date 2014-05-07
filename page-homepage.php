@@ -119,7 +119,7 @@ $closings = new WP_Query($args);
       <div class="col-md-4">
         <div class="button">
           <!-- TODO: fix this for production -->
-          <a href="/bvcps/our-community/blues-education-foundation/">
+          <a href="/our-community/blues-education-foundation/">
             <i class="fa fa-cloud"></i> Blue's Foundation
           </a>
         </div>
@@ -127,7 +127,7 @@ $closings = new WP_Query($args);
 
       <div class="col-md-4">
         <div class="button">
-          <a href="https://sites.google.com/a/bvcps.net/pmhs-sports-hall-of-fame/">
+          <a href="/hall-of-fame/">
             <i class="fa fa-trophy"></i> Hall of Fame
           </a>
         </div>
