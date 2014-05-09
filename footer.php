@@ -20,7 +20,7 @@
         </div>
         <div class="tel">
           <abbr class="type" title="fax">F:</abbr>
-          <span class="value">540.261.2129</span>
+          <span class="value">540.261.2967</span>
         </div>
         <div class="email">
           Email: <a class="value" href="http://www.jotform.us/form/40482319994161">Contact Us</a>
