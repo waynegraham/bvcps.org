@@ -1,6 +1,9 @@
 <?php
-// TODO: refactor as a function
-  $args = array( 'numberposts' => 5 );
+$args = array(
+  'numberposts' => 5,
+  'order_by' => 'post_date',
+  'order' => 'DESC'
+);
   $recent_posts = wp_get_recent_posts( $args, OBJECT );
 ?>
 
