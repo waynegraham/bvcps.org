@@ -1,7 +1,7 @@
 <?php
 $args = array(
   'numberposts' => 5,
-  'order_by' => 'post_date',
+  'orderby' => 'post_date',
   'order' => 'DESC'
 );
   $recent_posts = wp_get_recent_posts( $args, OBJECT );
