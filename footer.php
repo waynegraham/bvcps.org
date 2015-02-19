@@ -36,7 +36,7 @@
 $socialMedia = array(
   //'twitter' => '',
   'facebook' => 'https://m.facebook.com/profile.php?id=145021112207748',
-  //'google-plus' => '',
+  'google-plus' => 'https://plus.google.com/101899835523401896498',
   //'pinterest' => '',
   'youtube' => 'https://www.youtube.com/channel/UCVS0et_P67Oz2_Qptr1U6dg',
   //'vimeo-square' => '',
